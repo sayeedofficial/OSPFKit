@@ -1,4 +1,4 @@
-#### script.py is an OSPF network discovery script written in Python 2.7.3.
+#### script.py is an OSPF network discovery script written in Python
 #### It allows the discovery of all OSPF network devices in the network, without connecting to each of them or knowing all their IP addresses. 
 #### The user must provide the IP and SNMP community string of a single OSPF device in the network (for example, a device in the core) and the script searches for all other OSPF routers. 
 #### Prior to running the script, the user should configure SNMPv2 community string on the device and also include the subnet between his PC and the router into the OSPF process, so he has IP connectivity to all other OSPF nodes.
